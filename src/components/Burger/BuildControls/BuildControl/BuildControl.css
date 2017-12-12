@@ -1,3 +1,7 @@
+.Inline {
+  display: inline-block;
+}
+
 .buildControl {
   display: flex;
   justify-content: space-between;

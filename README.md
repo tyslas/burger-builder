@@ -2,7 +2,7 @@
 ### fun and interactive app for constructing & ordering a burger
 #### built with React**
 
-#### fork ⑂ ➡ clone 👽 ➡ npm install 🛠⚙️ ➡ npm start 🚦
+#### fork ⑂ ➡ clone 👽  ➡  npm install 🛠⚙️  ➡  npm start 🚦
 
 ###### This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

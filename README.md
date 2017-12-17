@@ -1,3 +1,4 @@
+#### ![burgerIcon](./src/assets/images/burger-logo.png)
 # Burger Builder
 ### fun and interactive app for constructing & ordering a burger
 #### built with React**

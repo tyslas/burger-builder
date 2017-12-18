@@ -1,13 +1,12 @@
 #### ![burgerIcon](./src/assets/images/burger-logo.png)
 # Burger Builder
-### fun and interactive app for constructing & ordering a burger
-#### built with React**
+#### fork ⑂  ➡  clone 👽  ➡  npm install  🛠⚙️  ➡  npm start🚦
 
-#### fork ⑂ ➡ clone 👽  ➡  npm install 🛠⚙️  ➡  npm start 🚦
+#### Fun and interactive React App for constructing & ordering a burger
 
-###### This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-###### You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Available Scripts
 

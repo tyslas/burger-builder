@@ -5,6 +5,7 @@ import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import Modal from '../../components/UI/Modal/Modal';
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
+import axios from '../../axios-orders';
 
 const INGREDIENT_PRICES = {
   salad: 0.5,
@@ -82,7 +83,27 @@ class BurgerBuilder extends Component {
   }
 
   purchaseContinueHandler = () => {
-    alert('You continue!');
+    // alert('You continue!');
+    /* in a production app you would calculate the totalPrice from the server side to ensure that the user couldn't manipulate the price */
+    const order = {
+      ingredients: this.state.ingredients,
+      price: this.state.totalPrice,
+      customer: {
+        name: 'Tito Y',
+        address: {
+          street: '615 Kalmia Way',
+          zipcode: '80702',
+          country: 'USA'
+        },
+        email: 'iamtito@i.com'
+      },
+      deliveryMethod: 'fastest'
+    }
+    /* for firebase the post request goes any "node" (/orders) + .json
+    appended to baseURL */
+    axios.post('/orders.json', order)
+      .then(response => console.log(response))
+      .catch(error => console.log(error));
   }
 
   render () {
